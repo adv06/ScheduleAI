@@ -1,0 +1,468 @@
+[
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "os.path",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.path",
+        "description": "os.path",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "google.auth.transport.requests",
+        "description": "google.auth.transport.requests",
+        "isExtraImport": true,
+        "detail": "google.auth.transport.requests",
+        "documentation": {}
+    },
+    {
+        "label": "Credentials",
+        "importPath": "google.oauth2.credentials",
+        "description": "google.oauth2.credentials",
+        "isExtraImport": true,
+        "detail": "google.oauth2.credentials",
+        "documentation": {}
+    },
+    {
+        "label": "InstalledAppFlow",
+        "importPath": "google_auth_oauthlib.flow",
+        "description": "google_auth_oauthlib.flow",
+        "isExtraImport": true,
+        "detail": "google_auth_oauthlib.flow",
+        "documentation": {}
+    },
+    {
+        "label": "build",
+        "importPath": "googleapiclient.discovery",
+        "description": "googleapiclient.discovery",
+        "isExtraImport": true,
+        "detail": "googleapiclient.discovery",
+        "documentation": {}
+    },
+    {
+        "label": "HttpError",
+        "importPath": "googleapiclient.errors",
+        "description": "googleapiclient.errors",
+        "isExtraImport": true,
+        "detail": "googleapiclient.errors",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "API",
+        "description": "API",
+        "isExtraImport": true,
+        "detail": "API",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "ApiConfig",
+        "kind": 6,
+        "importPath": "ScheduleAIBackend.API.apps",
+        "description": "ScheduleAIBackend.API.apps",
+        "peekOfCode": "class ApiConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'API'",
+        "detail": "ScheduleAIBackend.API.apps",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ScheduleAIBackend.API.calenderAPI",
+        "description": "ScheduleAIBackend.API.calenderAPI",
+        "peekOfCode": "def main():\n    creds = None\n    if os.path.exist(\"token.json\"):\n        creds = Credentials.from_authorized_user_file(\"token.json\")\n    if not creds or not creds.valid:\n        if creds and creds.expired and creds.refresh_token:\n            creds.refresh(Request()) \n    else:\n        flow = InstalledAppFlow.from_client_secrets_file(\"credentials.json\", SCOPES)",
+        "detail": "ScheduleAIBackend.API.calenderAPI",
+        "documentation": {}
+    },
+    {
+        "label": "SCOPES",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.API.calenderAPI",
+        "description": "ScheduleAIBackend.API.calenderAPI",
+        "peekOfCode": "SCOPES = [\"https://www.googleapis.com.auth/calendar\"]\ndef main():\n    creds = None\n    if os.path.exist(\"token.json\"):\n        creds = Credentials.from_authorized_user_file(\"token.json\")\n    if not creds or not creds.valid:\n        if creds and creds.expired and creds.refresh_token:\n            creds.refresh(Request()) \n    else:\n        flow = InstalledAppFlow.from_client_secrets_file(\"credentials.json\", SCOPES)",
+        "detail": "ScheduleAIBackend.API.calenderAPI",
+        "documentation": {}
+    },
+    {
+        "label": "getGPTResponse",
+        "kind": 2,
+        "importPath": "ScheduleAIBackend.API.gptAPI",
+        "description": "ScheduleAIBackend.API.gptAPI",
+        "peekOfCode": "def getGPTResponse(prompt):\n    client = OpenAI(api_key = \"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\")\n    response = client.chat.completions.create(\n        model=\"gpt-4o-mini\",\n        messages=[{\"role\": \"user\", \"content\": prompt}],\n    )\n    data = json.loads(response.model_dump_json())\n    ans = data['choices'][0]['message']['content']\n    return ans",
+        "detail": "ScheduleAIBackend.API.gptAPI",
+        "documentation": {}
+    },
+    {
+        "label": "TextModel",
+        "kind": 6,
+        "importPath": "ScheduleAIBackend.API.models",
+        "description": "ScheduleAIBackend.API.models",
+        "peekOfCode": "class TextModel(models.Model):\n    text = models.CharField(max_length=2000)\n    def __str__(self):\n        return self.text",
+        "detail": "ScheduleAIBackend.API.models",
+        "documentation": {}
+    },
+    {
+        "label": "TextModelSerializer",
+        "kind": 6,
+        "importPath": "ScheduleAIBackend.API.serializers",
+        "description": "ScheduleAIBackend.API.serializers",
+        "peekOfCode": "class TextModelSerializer(serializers.ModelSerializer): \n    class Meta:\n        model = TextModel\n        fields = '__all__'",
+        "detail": "ScheduleAIBackend.API.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "sendData",
+        "kind": 2,
+        "importPath": "ScheduleAIBackend.API.views",
+        "description": "ScheduleAIBackend.API.views",
+        "peekOfCode": "def sendData(request):\n    data = request.data \n    txt = TextModel(text = getGPTResponse(data['text']))\n    print(\"dawg\")\n    serializer = TextModelSerializer(txt)\n    return Response(serializer.data)",
+        "detail": "ScheduleAIBackend.API.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.asgi",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-bx64+$@(^==*k*t*lm)24irwx^ft8mr9=e8xs$@v3!o_o)mqan'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"192.168.1.155\", \"a61d-198-48-234-71.ngrok-free.app\"]\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-bx64+$@(^==*k*t*lm)24irwx^ft8mr9=e8xs$@v3!o_o)mqan'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"192.168.1.155\", \"a61d-198-48-234-71.ngrok-free.app\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"192.168.1.155\", \"a61d-198-48-234-71.ngrok-free.app\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "ALLOWED_HOSTS = [\"192.168.1.155\", \"a61d-198-48-234-71.ngrok-free.app\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'API',",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'API',\n    'rest_framework',\n    'corsheaders'",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n]",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "ROOT_URLCONF = 'ScheduleAIBackend.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'ScheduleAIBackend.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ALLOW_ALL_ORIGINS = True",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ALLOW_ALL_ORIGINS = True",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ALLOW_ALL_ORIGINS = True",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ALLOW_ALL_ORIGINS = True",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ALLOW_ALL_ORIGINS = True",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_ALL_ORIGINS",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.urls",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/', views.sendData, name=\"senddata\"),\n]",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "ScheduleAIBackend.ScheduleAIBackend.wsgi",
+        "description": "ScheduleAIBackend.ScheduleAIBackend.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "ScheduleAIBackend.ScheduleAIBackend.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ScheduleAIBackend.manage",
+        "description": "ScheduleAIBackend.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ScheduleAIBackend.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "ScheduleAIBackend.manage",
+        "documentation": {}
+    }
+]

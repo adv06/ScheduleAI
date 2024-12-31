@@ -5,14 +5,16 @@ import DailyReview from '../screens/dailyReview';
 import CalenderCreation from '../screens/calenderCreation';
 import gptChat from '../screens/gptChat';
 import Predictions from '../screens/Predictions';
-import { StyleSheet, Text } from 'react-native';
+import { Keyboard, KeyboardAvoidingView, StyleSheet, Text, TouchableWithoutFeedback } from 'react-native';
 
 const Tab = createBottomTabNavigator();
 
 const HomeTabs = () => {
   return (
-    <Tab.Navigator
-      screenOptions={({ route }) => ({
+    
+      
+    <Tab.Navigator 
+      screenOptions={ ({ route }) => ({
         tabBarIcon: ({ color, size, focused }) => {
           let iconName;
           if (route.name === 'Review') {
@@ -47,6 +49,8 @@ const HomeTabs = () => {
             fontWeight: 'normal',  // Default label weight
             marginBottom: 5,  // Space between icon and label
           },
+        keyboardHandlingEnabled: true,
+        headerShown : false,
       })}
     >
       <Tab.Screen name="Calendar" component={CalenderCreation} />
@@ -54,6 +58,8 @@ const HomeTabs = () => {
       <Tab.Screen name="Review" component={DailyReview} />
       <Tab.Screen name="Predictions" component={Predictions} />
     </Tab.Navigator>
+      
+   
   );
 };
 
@@ -82,9 +88,8 @@ const styles = StyleSheet.create({
         paddingVertical: 10,
         margin: 10,
         borderRadius: 40,
-        alignItems: 'center', // Center the items
-        justifyContent: 'center',
-
+        display: 'flex',
+        paddingVertical: 1,
     },
     headerStyle: {
         

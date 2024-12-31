@@ -31,11 +31,20 @@
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
+        },
+        "@react-native-google-signin/google-signin",
+        {
+          "platforms": [
+            "android",
+            "ios"
+          ]
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
     }
-  }
+    
+
+    }
 }
