@@ -1,64 +1,67 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
 import DailyReview from '../screens/dailyReview';
 import CalenderCreation from '../screens/calenderCreation';
 import gptChat from '../screens/gptChat';
+import googleAuth from '../screens/googleAuth';
+import {Context, Provider} from '../screens/Context';
 import Predictions from '../screens/Predictions';
 import { Keyboard, KeyboardAvoidingView, StyleSheet, Text, TouchableWithoutFeedback } from 'react-native';
 
 const Tab = createBottomTabNavigator();
 
 const HomeTabs = () => {
+  const {token, setToken} = useContext(Context);
   return (
     
-      
-    <Tab.Navigator 
-      screenOptions={ ({ route }) => ({
-        tabBarIcon: ({ color, size, focused }) => {
-          let iconName;
-          if (route.name === 'Review') {
-            iconName = focused ? 'list' : 'list-outline';
-          } else if (route.name === 'Calendar') {
-            iconName = focused ? 'calendar' : 'calendar-outline';
-          } else if (route.name === 'Chat') {
-            iconName = focused ? 'chatbubbles' : 'chatbubbles-outline';
-          } else if (route.name === 'Predictions') {
-            iconName = focused ? 'podium' : 'podium-outline';
-          }
-          return <Ionicons name={iconName} size={size} color={color} />;
-        },
-        tabBarLabel: ({children, color, focused}) => (
-            <Text style ={{
-                color,
-                fontWeight: focused ? 'bold' : 'normal', 
-                fontSize: 11
-            }}>{children}</Text>
-        ),
-        tabBarStyle: styles.tabBarStyle,
-        tabBarItemStyle: styles.tabBarItemStyle,
-        tabBarActiveBackgroundColor: 'transparent',
-        tabBarInactiveBackgroundColor: 'transparent', 
-        tabBarActiveTintColor: 'white',
-        tabBarInactiveTintColor: 'grey',
-        headerTintColor: 'white',
-        headerTitleAlign: 'center',
-        headerStyle: styles.headerStyle,
-        tabBarLabelStyle: {
-            fontSize: 12,  // Adjust label font size globally
-            fontWeight: 'normal',  // Default label weight
-            marginBottom: 5,  // Space between icon and label
+    
+      <Tab.Navigator 
+        screenOptions={ ({ route }) => ({
+          tabBarIcon: ({ color, size, focused }) => {
+            let iconName;
+            if (route.name === 'Review') {
+              iconName = focused ? 'list' : 'list-outline';
+            } else if (route.name === 'Calendar') {
+              iconName = focused ? 'calendar' : 'calendar-outline';
+            } else if (route.name === 'Chat') {
+              iconName = focused ? 'chatbubbles' : 'chatbubbles-outline';
+            } else if (route.name === 'Predictions') {
+              iconName = focused ? 'podium' : 'podium-outline';
+            }
+            return <Ionicons name={iconName} size={size} color={color} />;
           },
-        keyboardHandlingEnabled: true,
-        headerShown : false,
-      })}
-    >
-      <Tab.Screen name="Calendar" component={CalenderCreation} />
-      <Tab.Screen name="Chat" component={gptChat} />
-      <Tab.Screen name="Review" component={DailyReview} />
-      <Tab.Screen name="Predictions" component={Predictions} />
-    </Tab.Navigator>
-      
+          tabBarLabel: ({children, color, focused}) => (
+              <Text style ={{
+                  color,
+                  fontWeight: focused ? 'bold' : 'normal', 
+                  fontSize: 11
+              }}>{children}</Text>
+          ),
+          tabBarStyle: styles.tabBarStyle,
+          tabBarItemStyle: styles.tabBarItemStyle,
+          tabBarActiveBackgroundColor: 'transparent',
+          tabBarInactiveBackgroundColor: 'transparent', 
+          tabBarActiveTintColor: 'white',
+          tabBarInactiveTintColor: 'grey',
+          headerTintColor: 'white',
+          headerTitleAlign: 'center',
+          headerStyle: styles.headerStyle,
+          tabBarLabelStyle: {
+              fontSize: 12,  // Adjust label font size globally
+              fontWeight: 'normal',  // Default label weight
+              marginBottom: 5,  // Space between icon and label
+            },
+          keyboardHandlingEnabled: true,
+          headerShown : false,
+        })}
+      >
+        <Tab.Screen name="Calendar" component={CalenderCreation} />
+        <Tab.Screen name="Chat" component={token ? gptChat : googleAuth} />
+        <Tab.Screen name="Review" component={googleAuth} />
+        <Tab.Screen name="Predictions" component={Predictions} />
+      </Tab.Navigator>
+    
    
   );
 };

@@ -1,25 +1,26 @@
 import { Ionicons, MaterialIcons } from '@expo/vector-icons';
 import { useHeaderHeight } from '@react-navigation/elements';
-import React, { useEffect } from 'react'
+import React, { useContext, useEffect } from 'react'
 import { FlatList, Keyboard, KeyboardAvoidingView, Platform, StyleSheet, Text, TextInput, TouchableOpacity, TouchableWithoutFeedback, View } from 'react-native'
 
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { Context } from './Context';
 
 const gptChat = () => {
   const [text, onChangeText] = React.useState('');
   const [data, setData] = React.useState([]);
   const height = useHeaderHeight();
-
+  const {token, setToken} = useContext(Context);
   const gptUpdate = async () => {
     
     try{
-      
-      const response =  await fetch(`http://192.168.1.155:8000/api/`, {
+      const updatedText = "Take the following data and make a list with a colon of the following information (calendar entry): summary, location, description, attendees, due date, duration. Don't add any extra information, add each data point on a new line, no bullet points. If there is missing information, just dont put anything beside that the description, colon, blank. Give the due date in the form DD/MM/YYYY followed by the time. Here is the data: "
+      const response =  await fetch(`http://10.39.102.115:8000/api/`, {
         method: 'POST',
         headers: {
           "Content-Type": "application/json"
         },
-        body: JSON.stringify({text: text})
+        body: JSON.stringify({text: updatedText+text, token: token})
       });
       const res = await response.json();
       console.log(res.text);
@@ -123,7 +124,6 @@ const styles = StyleSheet.create({
   },
   bubbleRight: {
     backgroundColor: 'lightblue',
-    padding: 20,
     borderRadius: 20,
     marginBottom: 10,
     padding: 10, 
@@ -136,17 +136,16 @@ const styles = StyleSheet.create({
     overflow: 'visible'
   },
   bubbleLeft: {
-    overflow: 'visible',
     backgroundColor: 'lightgreen',
-    padding: 20,
     borderRadius: 20,
     marginBottom: 10,
-    padding: 10, 
+    paddingHorizontal: 11, 
+    paddingVertical: 10,
     fontSize: 18, 
     marginLeft: 10,
+    alignSelf: 'flex-start',
     maxWidth: '80%',
-    flex: 1,
-    flexWrap: 'wrap',
+    minWidth: 50,
 
   }
 
