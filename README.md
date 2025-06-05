@@ -1,2 +1,2 @@
 # ScheduleAI
-AI Scheduler
+AI Scheduler - In Hiatus
